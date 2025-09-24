@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock-Paper-Scissor game</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+  <header>
+    <h1>Rock-Paper-Scissor game</h1>
+  </header>
+
+  <div class = "scoreboard">
+    <div id = "user-label" class="badge">User</div>
+    <div id = "comp-label" class="badge">Comp</div>
+    <span id="user-score">0</span> : <span id="comp-score">0</span>
+  </div>
+
+  <div class="result">
+    <p>Go!</p>
+  </div>
+
+  <div class="choices">
+    <div class="choice" id="r">
+      <img src="img/batu.jpg" alt="">
+      <p>Rock</p>
+    </div>
+    <div class="choice" id="p">
+      <img src="img/kertas.jpg" alt="">
+      <p>Paper</p>
+    </div>
+    <div class="choice" id="s">
+      <img src="img/gunting.jpg" alt="">
+      <p>Scissor</p>
+    </div>
+  </div>
+  <p id="action-message">Make your moves!</p>
+  <div class="reset-button"><button>Reset</button></div>
+  
+<footer>Created by Muhammad Hilmy Fadillah to learn JavaScript</footer>
+<script src="app.js"></script>
+</body>
+</html>
